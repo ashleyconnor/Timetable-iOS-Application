@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ED82C0514891A8D00CB2D84 /* customiseModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED82C0414891A8C00CB2D84 /* customiseModalViewController.m */; };
+		5EFDD8AF1487ED2900AE7A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFDD8AE1487ED2900AE7A92 /* UIKit.framework */; };
+		5EFDD8B11487ED2900AE7A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFDD8B01487ED2900AE7A92 /* Foundation.framework */; };
+		5EFDD8B31487ED2900AE7A92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFDD8B21487ED2900AE7A92 /* CoreGraphics.framework */; };
+		5EFDD8B91487ED2900AE7A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDD8B71487ED2900AE7A92 /* InfoPlist.strings */; };
+		5EFDD8BB1487ED2900AE7A92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD8BA1487ED2900AE7A92 /* main.m */; };
+		5EFDD8BF1487ED2900AE7A92 /* timetableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD8BE1487ED2900AE7A92 /* timetableAppDelegate.m */; };
+		5EFDD8CB1487F04400AE7A92 /* TimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD8C91487F04400AE7A92 /* TimeTableViewController.m */; };
+		5EFDD8CC1487F04400AE7A92 /* TimeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDD8CA1487F04400AE7A92 /* TimeTableViewController.xib */; };
+		5EFDD8CE1487F06F00AE7A92 /* WelcomeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDD8CD1487F06F00AE7A92 /* WelcomeBackground.png */; };
+		5EFDD9131488001800AE7A92 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD8FB1488001800AE7A92 /* NSObject+SBJson.m */; };
+		5EFDD9141488001800AE7A92 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD8FE1488001800AE7A92 /* SBJsonParser.m */; };
+		5EFDD9151488001800AE7A92 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD9001488001800AE7A92 /* SBJsonStreamParser.m */; };
+		5EFDD9161488001800AE7A92 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD9021488001800AE7A92 /* SBJsonStreamParserAccumulator.m */; };
+		5EFDD9171488001800AE7A92 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD9041488001800AE7A92 /* SBJsonStreamParserAdapter.m */; };
+		5EFDD9181488001800AE7A92 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD9061488001800AE7A92 /* SBJsonStreamParserState.m */; };
+		5EFDD9191488001800AE7A92 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD9081488001800AE7A92 /* SBJsonStreamWriter.m */; };
+		5EFDD91A1488001800AE7A92 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD90A1488001800AE7A92 /* SBJsonStreamWriterAccumulator.m */; };
+		5EFDD91B1488001800AE7A92 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD90C1488001800AE7A92 /* SBJsonStreamWriterState.m */; };
+		5EFDD91C1488001800AE7A92 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD90E1488001800AE7A92 /* SBJsonTokeniser.m */; };
+		5EFDD91D1488001800AE7A92 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD9101488001800AE7A92 /* SBJsonUTF8Stream.m */; };
+		5EFDD91E1488001800AE7A92 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD9121488001800AE7A92 /* SBJsonWriter.m */; };
+		5EFDD9251488037E00AE7A92 /* dailyViewTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD9241488037E00AE7A92 /* dailyViewTableCell.m */; };
+		5EFDD9271488039E00AE7A92 /* dailyViewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDD9261488039E00AE7A92 /* dailyViewTableCell.xib */; };
+		5EFDD92F148831D900AE7A92 /* dailyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD92E148831D900AE7A92 /* dailyTableViewController.m */; };
+		5EFDD9331488523F00AE7A92 /* lecture.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDD9301488523F00AE7A92 /* lecture.png */; };
+		5EFDD9341488523F00AE7A92 /* lab.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDD9311488523F00AE7A92 /* lab.png */; };
+		5EFDD9351488523F00AE7A92 /* tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDD9321488523F00AE7A92 /* tutorial.png */; };
+		5EFDD939148903FB00AE7A92 /* ModuleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDD937148903FB00AE7A92 /* ModuleDetailViewController.m */; };
+		5EFDD93A148903FB00AE7A92 /* ModuleDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDD938148903FB00AE7A92 /* ModuleDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5ED82C0314891A8C00CB2D84 /* customiseModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customiseModalViewController.h; sourceTree = "<group>"; };
+		5ED82C0414891A8C00CB2D84 /* customiseModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customiseModalViewController.m; sourceTree = "<group>"; };
+		5EFDD8AA1487ED2900AE7A92 /* Timetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timetable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFDD8AE1487ED2900AE7A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5EFDD8B01487ED2900AE7A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5EFDD8B21487ED2900AE7A92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5EFDD8B61487ED2900AE7A92 /* Timetable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timetable-Info.plist"; sourceTree = "<group>"; };
+		5EFDD8B81487ED2900AE7A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EFDD8BA1487ED2900AE7A92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EFDD8BC1487ED2900AE7A92 /* Timetable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timetable-Prefix.pch"; sourceTree = "<group>"; };
+		5EFDD8BD1487ED2900AE7A92 /* timetableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timetableAppDelegate.h; sourceTree = "<group>"; };
+		5EFDD8BE1487ED2900AE7A92 /* timetableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timetableAppDelegate.m; sourceTree = "<group>"; };
+		5EFDD8C81487F04400AE7A92 /* TimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeTableViewController.h; path = ../TimeTableViewController.h; sourceTree = "<group>"; };
+		5EFDD8C91487F04400AE7A92 /* TimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeTableViewController.m; path = ../TimeTableViewController.m; sourceTree = "<group>"; };
+		5EFDD8CA1487F04400AE7A92 /* TimeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimeTableViewController.xib; path = ../TimeTableViewController.xib; sourceTree = "<group>"; };
+		5EFDD8CD1487F06F00AE7A92 /* WelcomeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomeBackground.png; sourceTree = "<group>"; };
+		5EFDD8F91488001800AE7A92 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		5EFDD8FA1488001800AE7A92 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		5EFDD8FB1488001800AE7A92 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		5EFDD8FC1488001800AE7A92 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		5EFDD8FD1488001800AE7A92 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		5EFDD8FE1488001800AE7A92 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		5EFDD8FF1488001800AE7A92 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		5EFDD9001488001800AE7A92 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		5EFDD9011488001800AE7A92 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		5EFDD9021488001800AE7A92 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		5EFDD9031488001800AE7A92 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		5EFDD9041488001800AE7A92 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		5EFDD9051488001800AE7A92 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		5EFDD9061488001800AE7A92 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		5EFDD9071488001800AE7A92 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		5EFDD9081488001800AE7A92 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		5EFDD9091488001800AE7A92 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		5EFDD90A1488001800AE7A92 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		5EFDD90B1488001800AE7A92 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		5EFDD90C1488001800AE7A92 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		5EFDD90D1488001800AE7A92 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		5EFDD90E1488001800AE7A92 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		5EFDD90F1488001800AE7A92 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		5EFDD9101488001800AE7A92 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		5EFDD9111488001800AE7A92 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		5EFDD9121488001800AE7A92 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		5EFDD9231488037E00AE7A92 /* dailyViewTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dailyViewTableCell.h; sourceTree = "<group>"; };
+		5EFDD9241488037E00AE7A92 /* dailyViewTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dailyViewTableCell.m; sourceTree = "<group>"; };
+		5EFDD9261488039E00AE7A92 /* dailyViewTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dailyViewTableCell.xib; sourceTree = "<group>"; };
+		5EFDD92D148831D800AE7A92 /* dailyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dailyTableViewController.h; sourceTree = "<group>"; };
+		5EFDD92E148831D900AE7A92 /* dailyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dailyTableViewController.m; sourceTree = "<group>"; };
+		5EFDD9301488523F00AE7A92 /* lecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture.png; sourceTree = "<group>"; };
+		5EFDD9311488523F00AE7A92 /* lab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lab.png; sourceTree = "<group>"; };
+		5EFDD9321488523F00AE7A92 /* tutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial.png; sourceTree = "<group>"; };
+		5EFDD936148903FB00AE7A92 /* ModuleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleDetailViewController.h; sourceTree = "<group>"; };
+		5EFDD937148903FB00AE7A92 /* ModuleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleDetailViewController.m; sourceTree = "<group>"; };
+		5EFDD938148903FB00AE7A92 /* ModuleDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModuleDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EFDD8A71487ED2900AE7A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFDD8AF1487ED2900AE7A92 /* UIKit.framework in Frameworks */,
+				5EFDD8B11487ED2900AE7A92 /* Foundation.framework in Frameworks */,
+				5EFDD8B31487ED2900AE7A92 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EFDD89F1487ED2900AE7A92 = {
+			isa = PBXGroup;
+			children = (
+				5EFDD8B41487ED2900AE7A92 /* Timetable */,
+				5EFDD8AD1487ED2900AE7A92 /* Frameworks */,
+				5EFDD8AB1487ED2900AE7A92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EFDD8AB1487ED2900AE7A92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EFDD8AA1487ED2900AE7A92 /* Timetable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EFDD8AD1487ED2900AE7A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EFDD8AE1487ED2900AE7A92 /* UIKit.framework */,
+				5EFDD8B01487ED2900AE7A92 /* Foundation.framework */,
+				5EFDD8B21487ED2900AE7A92 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EFDD8B41487ED2900AE7A92 /* Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				5EFDD8C81487F04400AE7A92 /* TimeTableViewController.h */,
+				5EFDD8C91487F04400AE7A92 /* TimeTableViewController.m */,
+				5EFDD8CA1487F04400AE7A92 /* TimeTableViewController.xib */,
+				5EFDD8BD1487ED2900AE7A92 /* timetableAppDelegate.h */,
+				5EFDD8BE1487ED2900AE7A92 /* timetableAppDelegate.m */,
+				5EFDD9231488037E00AE7A92 /* dailyViewTableCell.h */,
+				5EFDD9241488037E00AE7A92 /* dailyViewTableCell.m */,
+				5EFDD92D148831D800AE7A92 /* dailyTableViewController.h */,
+				5EFDD92E148831D900AE7A92 /* dailyTableViewController.m */,
+				5EFDD9261488039E00AE7A92 /* dailyViewTableCell.xib */,
+				5EFDD936148903FB00AE7A92 /* ModuleDetailViewController.h */,
+				5EFDD937148903FB00AE7A92 /* ModuleDetailViewController.m */,
+				5EFDD938148903FB00AE7A92 /* ModuleDetailViewController.xib */,
+				5ED82C0314891A8C00CB2D84 /* customiseModalViewController.h */,
+				5ED82C0414891A8C00CB2D84 /* customiseModalViewController.m */,
+				5EFDD8CD1487F06F00AE7A92 /* WelcomeBackground.png */,
+				5EFDD9301488523F00AE7A92 /* lecture.png */,
+				5EFDD9311488523F00AE7A92 /* lab.png */,
+				5EFDD9321488523F00AE7A92 /* tutorial.png */,
+				5EFDD8F81488001800AE7A92 /* SBJSON */,
+				5EFDD8B51487ED2900AE7A92 /* Supporting Files */,
+			);
+			path = Timetable;
+			sourceTree = "<group>";
+		};
+		5EFDD8B51487ED2900AE7A92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EFDD8B61487ED2900AE7A92 /* Timetable-Info.plist */,
+				5EFDD8B71487ED2900AE7A92 /* InfoPlist.strings */,
+				5EFDD8BA1487ED2900AE7A92 /* main.m */,
+				5EFDD8BC1487ED2900AE7A92 /* Timetable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EFDD8F81488001800AE7A92 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				5EFDD8F91488001800AE7A92 /* JSON.h */,
+				5EFDD8FA1488001800AE7A92 /* NSObject+SBJson.h */,
+				5EFDD8FB1488001800AE7A92 /* NSObject+SBJson.m */,
+				5EFDD8FC1488001800AE7A92 /* SBJson.h */,
+				5EFDD8FD1488001800AE7A92 /* SBJsonParser.h */,
+				5EFDD8FE1488001800AE7A92 /* SBJsonParser.m */,
+				5EFDD8FF1488001800AE7A92 /* SBJsonStreamParser.h */,
+				5EFDD9001488001800AE7A92 /* SBJsonStreamParser.m */,
+				5EFDD9011488001800AE7A92 /* SBJsonStreamParserAccumulator.h */,
+				5EFDD9021488001800AE7A92 /* SBJsonStreamParserAccumulator.m */,
+				5EFDD9031488001800AE7A92 /* SBJsonStreamParserAdapter.h */,
+				5EFDD9041488001800AE7A92 /* SBJsonStreamParserAdapter.m */,
+				5EFDD9051488001800AE7A92 /* SBJsonStreamParserState.h */,
+				5EFDD9061488001800AE7A92 /* SBJsonStreamParserState.m */,
+				5EFDD9071488001800AE7A92 /* SBJsonStreamWriter.h */,
+				5EFDD9081488001800AE7A92 /* SBJsonStreamWriter.m */,
+				5EFDD9091488001800AE7A92 /* SBJsonStreamWriterAccumulator.h */,
+				5EFDD90A1488001800AE7A92 /* SBJsonStreamWriterAccumulator.m */,
+				5EFDD90B1488001800AE7A92 /* SBJsonStreamWriterState.h */,
+				5EFDD90C1488001800AE7A92 /* SBJsonStreamWriterState.m */,
+				5EFDD90D1488001800AE7A92 /* SBJsonTokeniser.h */,
+				5EFDD90E1488001800AE7A92 /* SBJsonTokeniser.m */,
+				5EFDD90F1488001800AE7A92 /* SBJsonUTF8Stream.h */,
+				5EFDD9101488001800AE7A92 /* SBJsonUTF8Stream.m */,
+				5EFDD9111488001800AE7A92 /* SBJsonWriter.h */,
+				5EFDD9121488001800AE7A92 /* SBJsonWriter.m */,
+			);
+			path = SBJSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EFDD8A91487ED2900AE7A92 /* Timetable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFDD8C21487ED2900AE7A92 /* Build configuration list for PBXNativeTarget "Timetable" */;
+			buildPhases = (
+				5EFDD8A61487ED2900AE7A92 /* Sources */,
+				5EFDD8A71487ED2900AE7A92 /* Frameworks */,
+				5EFDD8A81487ED2900AE7A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timetable;
+			productName = Timetable;
+			productReference = 5EFDD8AA1487ED2900AE7A92 /* Timetable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EFDD8A11487ED2900AE7A92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5EFDD8A41487ED2900AE7A92 /* Build configuration list for PBXProject "Timetable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EFDD89F1487ED2900AE7A92;
+			productRefGroup = 5EFDD8AB1487ED2900AE7A92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EFDD8A91487ED2900AE7A92 /* Timetable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EFDD8A81487ED2900AE7A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFDD8B91487ED2900AE7A92 /* InfoPlist.strings in Resources */,
+				5EFDD8CC1487F04400AE7A92 /* TimeTableViewController.xib in Resources */,
+				5EFDD8CE1487F06F00AE7A92 /* WelcomeBackground.png in Resources */,
+				5EFDD9271488039E00AE7A92 /* dailyViewTableCell.xib in Resources */,
+				5EFDD9331488523F00AE7A92 /* lecture.png in Resources */,
+				5EFDD9341488523F00AE7A92 /* lab.png in Resources */,
+				5EFDD9351488523F00AE7A92 /* tutorial.png in Resources */,
+				5EFDD93A148903FB00AE7A92 /* ModuleDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EFDD8A61487ED2900AE7A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFDD8BB1487ED2900AE7A92 /* main.m in Sources */,
+				5EFDD8BF1487ED2900AE7A92 /* timetableAppDelegate.m in Sources */,
+				5EFDD8CB1487F04400AE7A92 /* TimeTableViewController.m in Sources */,
+				5EFDD9131488001800AE7A92 /* NSObject+SBJson.m in Sources */,
+				5EFDD9141488001800AE7A92 /* SBJsonParser.m in Sources */,
+				5EFDD9151488001800AE7A92 /* SBJsonStreamParser.m in Sources */,
+				5EFDD9161488001800AE7A92 /* SBJsonStreamParserAccumulator.m in Sources */,
+				5EFDD9171488001800AE7A92 /* SBJsonStreamParserAdapter.m in Sources */,
+				5EFDD9181488001800AE7A92 /* SBJsonStreamParserState.m in Sources */,
+				5EFDD9191488001800AE7A92 /* SBJsonStreamWriter.m in Sources */,
+				5EFDD91A1488001800AE7A92 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				5EFDD91B1488001800AE7A92 /* SBJsonStreamWriterState.m in Sources */,
+				5EFDD91C1488001800AE7A92 /* SBJsonTokeniser.m in Sources */,
+				5EFDD91D1488001800AE7A92 /* SBJsonUTF8Stream.m in Sources */,
+				5EFDD91E1488001800AE7A92 /* SBJsonWriter.m in Sources */,
+				5EFDD9251488037E00AE7A92 /* dailyViewTableCell.m in Sources */,
+				5EFDD92F148831D900AE7A92 /* dailyTableViewController.m in Sources */,
+				5EFDD939148903FB00AE7A92 /* ModuleDetailViewController.m in Sources */,
+				5ED82C0514891A8D00CB2D84 /* customiseModalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EFDD8B71487ED2900AE7A92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFDD8B81487ED2900AE7A92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EFDD8C01487ED2900AE7A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EFDD8C11487ED2900AE7A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EFDD8C31487ED2900AE7A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timetable/Timetable-Prefix.pch";
+				INFOPLIST_FILE = "Timetable/Timetable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5EFDD8C41487ED2900AE7A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timetable/Timetable-Prefix.pch";
+				INFOPLIST_FILE = "Timetable/Timetable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EFDD8A41487ED2900AE7A92 /* Build configuration list for PBXProject "Timetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFDD8C01487ED2900AE7A92 /* Debug */,
+				5EFDD8C11487ED2900AE7A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFDD8C21487ED2900AE7A92 /* Build configuration list for PBXNativeTarget "Timetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFDD8C31487ED2900AE7A92 /* Debug */,
+				5EFDD8C41487ED2900AE7A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EFDD8A11487ED2900AE7A92 /* Project object */;
+}
